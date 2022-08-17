@@ -87,3 +87,89 @@ Não, nosso produto não tem efeito sanfona, porém é aconselhável manter uma 
 
 Dúvidas? entre em contato conosco: atendimento@rvfit.com.br ou (11) 94973-7100
 Copyright 2022 – RVFit­­® – Todos os Direitos Reservados
+
+<hr>
+
+# Entrega e devoluções 
+## ENTREGAS E DEVOLUÇÕES
+### CONDIÇÕES
+As trocas ou devoluções devem ocorrer num prazo máximo de até 7 (sete) dias, a contar da data da entrega. As ocorrências de troca ou devolução devem ser comunicadas ao nosso SAC – Serviço de Atendimento ao Cliente. Todas as trocas e devoluções serão processadas através da tarifa PAC dos Correios.
+RECUSA NA ENTREGA
+Caso avalie que o item chegou em sua casa diferente do esperado, como por exemplo:
+- Embalagem aberta ou avariada
+- Produto avariado
+- Produto diferente do pedido
+- Falta de produtos
+
+
+Entre imediatamente em contato com nosso SAC para proceder com a devolução ou troca. Serão enviadas instruções do que fazer. Será necessário que você escreva no verso da DANFE (Documento Auxiliar da Nota Fiscal Eletrônica, que acompanha os pedidos) o motivo do problema.
+
+### CANCELAMENTO OU ARREPENDIMENTO DE COMPRA
+A devolução dos produtos pode ser feita em até 7 (sete) dias, a contar da data de entrega. Para troca de produto, as seguintes condições se aplicam:
+• O produto deverá ser retornado na embalagem original, sem indícios de uso, acompanhado da DANFE (Documento Auxiliar da Nota Fiscal Eletrônica), manual, acessórios e outros materiais que o acompanhem. Para proceder com a troca, entre em contato com o SAC – Serviço de Atendimento ao Cliente.
+
+### DEVOLUÇÃO VIA CORREIOS
+No momento da devolução nosso SAC informará ao cliente o meio que deve ser feita a postagem de retorno. Se porventura for via Correios, será enviado a etiqueta a ser colada na embalagem para postagem gratuita por parte do cliente. Lembre-se que o DANFE (Documento Auxiliar da Nota Fiscal Eletrônica) deve voltar junto com o produto. No verso da DANFE deve estar escrito o motivo da devolução.
+
+### PRAZO DE RESOLUÇÃO DA TROCA
+A RVFIT tem até 30 (trinta) dias corridos, contados a partir do recebimento do produto retornado em nosso centro de distribuição, para avaliar se a solicitação preenche os requisitos da Política de Troca e Devoluções. Em caso afirmativo, será realizada a troca. No caso de devolução do dinheiro, para pagamentos com cartão de crédito, a operadora será avisada para que seja processado o estorno do pagamento. O prazo deste estorno depende da administradora do cartão de crédito. No caso de boleto bancário, a devolução do valor será realizada em até 10 (dez) dias úteis por meio de depósito bancário.
+
+**ATENÇÃO:** A devolução só ocorrerá na conta bancária de mesmo CPF do comprador. Caso o comprador não tenha conta bancária, será enviada uma Ordem de Pagamento que pode ser sacada em agência bancária mediante apresentação de identidade e CPF.
+
+**ATENÇÃO:** A RVFIT isenta-se da obrigação de troca quando as solicitações não atenderem aos processos descritos nesta política (como prazos, produto retornado na embalagem original e outros).
+
+### PEDIDO NÃO ENTREGUE OU RETORNO DE PEDIDO
+Endereço Incorreto: O preenchimento do endereço se dá no momento em que o pedido é realizado no site e portanto é de total responsabilidade do cliente. Caso o pedido volte por endereçamento incorreto (informação que fica disponível no rastreamento dos Correios) o cliente será avisado e será cobrado novo frete para reenvio do pedido ou devolvido o valor dos produtos (sem o frete).
+
+Cliente Ausente: O cliente deve ter ciência no momento da compra que terá que estar em casa para receber (ou alguém receber em seu nome) a encomenda. Os Correios tentarão fazer 3 tentativas de entrega no endereço. Após a terceira tentativa o pacote ficará aguardando no centro de distribuição mais próximo e o cliente será avisado para fazer a retirada.
+
+Caso não seja feita ou por qualquer outro motivo o pacote volte para nós, o reenvio ocorrerá em nova cobrança de frete para o cliente. Em caso de discordância, será devolvido o valor dos produtos (sem o frete).
+
+Cliente Recusou: Em caso de recusa do cliente por produto avariado, o produto irá retornar para nós e confirmada a avaria novo envio será feito por nossa conta do mesmo tipo de produto (caso indisponível, será feito contato para resolver o caso). Caso o cliente recuse receber o produto em perfeitas condições, poderá ser feito novo envio mediante pagamento de novo frete. Qualquer outro motivo será tratado caso a caso e o pagamento do frete será de acordo com a responsabilidade do motivo de retorno.
+
+<hr>
+
+# PRAZOS E ENVIOS
+### QUANTO TEMPO LEVA PARA EU RECEBER MEU PEDIDO?
+O prazo de envio é de 3 a 5 dias após a data de confirmação do pagamento.
+O prazo de envio é contado a partir da confirmação do pagamento em dias úteis, ou seja, não inclui sábados, domingos e feriados.
+
+Após a compra confirmada o pedido será processado e isso leva de 1 a 5 dias a depender da demanda. Fique tranquilo. 97% das encomendas são enviadas em até 3 dias úteis.
+
+### COMO FAÇO PARA RASTREAR O MEU PEDIDO?
+Você pode rastrear utilizando o código de rastreio enviado para o e-mail cadastrado.
+Para fazer o rastreamento você pode utilizar o link dos correios:
+
+https://www2.correios.com.br/sistemas/rastreamento/
+
+Os correios demoram de 3 a 10 dias para lançar os códigos no sistema, portanto, se seu código não funcionar, tenha paciência e tente novamente outra hora.
+
+### RECEBEREI O PRODUTO EM MINHA CASA?
+Sim, a maioria dos pedidos são enviados para o endereço de entrega.
+Mas é possível que tenha que retirar seu pedido na unidade de Correios local, em casos de o endereço não ter sido localizado ou que tenha ocorrido várias tentativas de entrega sem sucesso (endereço indisponível).
+
+Pedimos que acompanhe seu pedido através do código de rastreio disponibilizado para você em seu e-mail, para que o pedido não retorne ao remetente caso esteja aguardando retirada por longo período.
+
+**NOTA:** Por favor, certifique-se de que o endereço de entrega cadastrado está correto.
+
+### DIGITEI O ENDEREÇO INCORRETO O QUE FAÇO?
+A maioria dos pedidos são enviados no dia seguinte.
+Envie-nos um e-mail no dia em que efetuou o pedido para que possamos atualizar seu endereço antes que este seja enviado.
+
+Nós não conseguimos realizar qualquer correção após o pedido ter sido despachado.
+
+### O RASTREIO MOSTRA COMO ENTREGUE MAS EU NÃO RECEBI, O QUE FAÇO?
+Por favor, pergunte aos moradores de sua casa, é possível que eles tenham aceitado a encomenda e que você ainda não esteja ciente disto.
+Você também pode contatar a unidade de Correios local. Algumas vezes o código de rastreio informa que foi entregue enquanto o pedido ainda está no posto local, como também a entrega pode ter sido atrasada e será entregue no dia seguinte.
+
+Por favor, também verifique se você não recebeu nenhuma notificação da transportadora em sua caixa de correio. Caso tenha ocorrido uma tentativa de entrega sem sucesso eles deixarão uma notificação para que você saiba do ocorrido e com orientações sobre a entrega do pedido.
+
+Nós só podemos realizar o reembolso se o pedido for extraviado no caminho, ou seja, se seu pedido ficar sem atualizações no rastreio depois de 60 dias após a data de envio. Pedidos entregues não são ressarcidos.
+
+<hr>
+
+# AVISO LEGAL
+Os resultados podem variar de pessoa para pessoa. Todos os depoimentos, apesar de serem reais, NÃO representam resultados únicos, já que cada indivíduo é diferente do outro. Jamais faça alguma mudança na alimentação ou atividade física sem consultar seu médico ou profissional da saúde. Nenhuma informação desta página substitui uma consulta com um médico. Em caso de dúvida, envie um e-mail para atendimento@redufit.com.br e entraremos em contato o mais breve possível.
+
+Link para whatsapp
+https://api.whatsapp.com/send/?phone=5511949737100&text=Ol%C3%A1+estou+na+pagina+do+Redufit%2C+quero+fazer+meu+pedido+%21&type=phone_number&app_absent=0

@@ -171,26 +171,26 @@ mark {
     text-align: center;
 }
 button {
-    width: max-content;
+    width: 100%;
     height: 6.4rem;
-    padding: 0 2rem;
+    padding: .16rem 3.2rem;
     color: #FFFFFF;
     border-radius: 0.8rem;
-    font-size: var(--body-text);
+    font-size: var(--typography-body-base);
     font-weight: 800;
     text-align: center;
     text-transform: uppercase;
-    background: var(--bg-gradient);
+    background: var(--brand-color);
     outline: none;
     border: none;
     cursor: pointer;
     transition: background-color .4s ease;
     transition: box-shadow .4s ease;
-    box-shadow: 0px 1.25rem 40px -11px var(--brand-color1);
+    box-shadow: 0px 1.25rem 40px -11px var(--brand-color);
 }
 button:hover {
-    background-color: bluee;
-    box-shadow: 0px 1.25rem 40px -11px var(--brand-color2);
+    background-color: var(--attention-green);
+    box-shadow: 0px 1.25rem 40px -11px var(--brand-color);
     color: #ffffff;
 }
 
@@ -546,4 +546,21 @@ footer .container nav ul li{
     background: var(--attention-green);
       border-radius:6rem;
       
+}
+
+
+/* TOPO*/
+.topo{
+    background-color: transparent;
+    padding: 6.4rem 0;
+}
+.s-doc .container {
+ justify-items: baseline;
+}
+.s-doc .container h3 {
+ text-align: left;
+ margin-top: 2.4rem;
+}
+.s-doc .container li {
+ margin-top: 2.4rem;
 }
