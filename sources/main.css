@@ -582,3 +582,35 @@ footer .container nav ul li{
 .s-doc .container li {
  margin-top: 2.4rem;
 }
+
+/*Página de obrigado*/
+.hero-banner_obrigado {
+    padding-top: 2.4rem;
+    padding-bottom: 3.2rem;
+    position: relative;
+    background-color: var(--brand-color);
+}
+.hero-banner_obrigado .container img{
+    display: block;
+    height: 3.2rem;
+    max-width: max-content;
+    object-fit: contain;
+}
+.s-obrigado .container{
+    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+    align-items: stretch;
+    gap: 6.4rem;
+}
+.s-obrigado .container .obrigado_content{
+    width: 100%;
+    height: auto;
+}
+.s-obrigado .container .obrigado_image{
+    width: 100%;
+    height: auto;
+}
+.s-obrigado .container .obrigado_image img{
+    max-width: 90%;
+    object-fit: contain;
+    margin: 0 auto;
+}

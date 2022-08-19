@@ -2,30 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.redufitemagrecedor.com.br/</loc>
+    <lastmod>2022-08-19T04:01:26+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://www.redufitemagrecedor.com.br/advetorial.html</loc>
+    <lastmod>2022-08-19T04:01:26+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.redufitemagrecedor.com.br/politica.html</loc>
+    <lastmod>2022-08-19T04:01:26+00:00</lastmod>
     <changefreq>always</changefreq>
-    <priority>0.9</priority>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.redufitemagrecedor.com.br/entrega-devolucao.html</loc>
+    <lastmod>2022-08-19T04:01:26+00:00</lastmod>
     <changefreq>always</changefreq>
-    <priority>0.9</priority>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.redufitemagrecedor.com.br/termos.html</loc>
+    <lastmod>2022-08-19T04:01:26+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.9</priority>
   </url>

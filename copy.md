@@ -211,7 +211,8 @@ Link para whatsapp: [Whatsapp](https://api.whatsapp.com/send/?phone=551194973710
 <br>
 
 # **Página de Obrigado**
-## **OBRIGADA! ESTAMOS QUASE LÁ!**
+## **Parabéns!**
+## **Seu pedido foi aprovado com sucesso!**
 ### **Seu pedido estará sendo preparado para envio 📦 <br> Fique atenta também no seu e-mail 📧 <br> você irá receber o código de rastreio por lá… 😍**
 
 <br>
