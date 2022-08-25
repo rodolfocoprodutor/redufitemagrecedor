@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 /* Variables css*/
@@ -152,7 +151,7 @@ body{
 
 img{
     display:block;
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 mark {
@@ -199,6 +198,9 @@ section{
     gap: 2rem;
     
 }
+.container :is(h2, h3){
+    text-align: center;
+}   
 :is(header) h3,
 :is(header) h2{
     text-align: center;
@@ -501,12 +503,12 @@ footer b{
     color: inherit;
 }
 footer a{
-    color: var(--attention-yellow);
-    
+    color: var(--attention-yellow); 
 }
 footer .container .logo{
     max-width: 25.6rem;
     object-fit: contain;
+    margin-inline: auto;
 }
 footer .container nav ul{
     display: flex;
@@ -583,6 +585,7 @@ footer .container nav ul li{
     height: 3.2rem;
     max-width: max-content;
     object-fit: contain;
+    margin-inline: auto;
 }
 .s-obrigado .container{
     grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
@@ -688,4 +691,51 @@ footer .container nav ul li{
     max-width: 100%;
     height: 100%;
     border-radius: .8rem;
+}
+
+/*página de upsell*/
+.s-upsell{
+    background-color: red;
+}
+.s-upsell :is(h2, p){
+    text-align: center;
+    color: #FFFFFF;
+}
+.s-upsell_offer .container h3 .text_up{
+    font-size: var(--typography-h2);
+    font-weight: 700;
+}
+.s-upsell_offer .container img{
+    margin-inline: auto;
+}
+.s-upsell_offer .container a{
+    text-align: center;
+    margin-inline: auto;
+    text-decoration: underline;
+    font-size: var(--typography-body-base);
+}
+.s-upsell_offer .container .upsell_tamanhos{
+    margin-inline: auto;
+    max-width: 40rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.s-upsell_offer .container .upsell_tamanhos a{
+    display: block;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    background-color: green;
+
+    color: #fff;
+    font-weight: 600;
+    line-height: 2.8;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: var(--typography-h3);
 }
