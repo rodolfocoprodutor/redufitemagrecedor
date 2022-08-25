@@ -186,6 +186,14 @@ header{
 header img{
     margin: auto;
 }
+header P{
+    text-align: center;
+    margin: auto;
+    color: white;
+    opacity: 0.5;
+    line-height: 2;
+    font-size: var(--typography-body-sml);
+}
 
 footer{
     padding-top: 1.6rem;
