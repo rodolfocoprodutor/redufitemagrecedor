@@ -59,6 +59,7 @@
         --typography-instruction: 1.0;
     }
 }
+
 *,
 *::after,
 *::before{
@@ -151,7 +152,7 @@ body{
 
 img{
     display:block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 mark {
@@ -159,14 +160,6 @@ mark {
     background-color: yellow;
     color: initial;
  }
-.gradient {
-    font-size: inherit;
-    background: linear-gradient(105.88deg, #FF6651 0%, #F8377B 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-}
 .t-center{
     text-align: center;
 }
@@ -204,28 +197,19 @@ section{
     width: min(100% - 10%, 1216px);
     margin-inline: auto;
     gap: 2rem;
-    align-items: center;
-    justify-items: center;
+    
 }
 :is(header) h3,
 :is(header) h2{
     text-align: center;
 }
 
-header{
+.i-banner-hero {
     display: grid;
     justify-content: center;
     padding-top: 0;
     padding-bottom: 3.4rem;
     background-color: var(--brand-color);
-}
-header .container{
-    width: 95%;
-}
-header .container img{
-    max-width: max-content;
-    max-height: 100vh;
-    object-fit: contain; 
 }
 
 .s-benefits .container header{
@@ -274,17 +258,19 @@ header .container img{
     background-attachment: scroll, scroll, scroll;
 }
 .s-pq .container{
-    grid-template-columns: repeat(auto-fit, minmax(32rem, auto));
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
     gap: 4rem;
 }
 .s-pq .container h2,
 .s-pq .container p{
     color: #FFFFFF;
 }
-.s-pq .container .pq_content__image img{
+.s-pq .container .pq_content__image {
     max-width: max-content;
-    max-height: 384px;
+    max-height: 38rem;
     object-fit: contain;
+    justify-self: end;
 }
 
 .s-formula .container header{
@@ -316,7 +302,9 @@ header .container img{
     background-color: var(--brand-color);
 }
 .s-video .container{
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr)) ;
     gap: 9.6rem;
+    padding-bottom: 6.4rem;
 }
 .s-video .container .video__content__banner{
     display: grid;
@@ -613,4 +601,91 @@ footer .container nav ul li{
     max-width: 90%;
     object-fit: contain;
     margin: 0 auto;
+}
+
+/* página de presell*/
+.h-presell {
+    display: grid;
+    height: 82vh;
+    background-color: transparent;
+    justify-content: baseline;
+    padding-top: 6.4rem;
+    padding-bottom: 6.4rem;
+}
+.h-presell .container {
+    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+    gap: 2.4rem;
+    align-items: center;
+}
+.h-presell .container button{
+    margin-top: 3.2rem;
+    background-color: var(--attention-green);
+    box-shadow: none;
+}
+.h-presell .container .content__presell__video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 6.4rem;
+    aspect-ratio: 16 / 9;
+}
+.h-presell .container .content__presell__video iframe{
+    width: 96rem;
+    max-width: 100%;
+    height: 100%;
+    border-radius: .8rem;
+}
+
+.f-presell{
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+    background-color: hsl(0, 0%, 97%);
+}
+.f-presell .container p{
+    color: var(--text-color);
+    line-height: 120%;
+}
+.h-presell-quiz {
+    display: grid;
+    background-color: transparent;
+    justify-content: baseline;
+    padding-top: 6.4rem;
+    padding-bottom: 6.4rem;
+}
+.h-presell-quiz .container {
+    gap: 2.4rem;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.h-presell-quiz .container .menu-presell{
+    padding-top: 3.2rem;
+    padding-bottom: 1.6rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.4rem;
+    justify-content: center;
+}
+.h-presell-quiz .container .menu-presell a button{
+    box-shadow: none;
+}
+.h-presell-quiz .container .menu-presell a button:hover{
+    background-color: var(--attention-yellow);
+    color: #000;
+}
+.h-presell-quiz .container .menu-presell .acept{
+    background-color: var(--attention-green);
+}
+.h-presell-quiz .container .content__quiz__video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 6.4rem;
+    aspect-ratio: 16 / 9;
+}
+.h-presell-quiz .container iframe{
+    width: 96rem;
+    max-width: 100%;
+    height: 100%;
+    border-radius: .8rem;
 }

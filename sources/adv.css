@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Variables css*/
+:root {
+    /* Colors */
+    /* Color mode HSL(hue, saturation, lightness)*/
+    /*
+        blue    :   hsl(224, 69%, 14%)
+        red     :   hsl(0, 100%, 43%)
+        gray    :   hsl(0, 0%, 98%)
+        green   :   hsl(100, 83%, 41%)
+        yellow  :   HSL(52, 100%, 50%)
+    */
+
+    --hue: 240;
+    --sat: 5%;
+    --lig: 9%;
+
+    --brand-color: hsl(var(--hue), var(--sat), var(--lig));
+    --brand-color2: hsl(23, 100%, 50%);
+    --title-color: hsl(212, 94%, 7%);
+    --text-color: hsl(212, 21%, 33%);
+    --bg-gradient: linear-gradient(105.88deg, #FF6651 0%, #F8377B 100%);
+    --container-color: #fff;
+    --attention-yellow: hsl(45, 100%, 48%);
+    --attention-red: hsl(358, 85%, 52%);
+    --attention-green: hsl(100, 83%, 41%);
+    --gray: hsl(0, 0%, 96%);
+
+    /* Font and typography */
+    /* .5rem = 8px / 1rem = 16px */
+    --body-font: 'Poppins', sans-serif;
+    --typography-h2: 4.8rem;
+    --typography-h3: 2.4rem;
+    --typography-body-base: 1.8rem;
+}
+
+/* Responsive typography */
+@media only screen and (orientation: portrait) {
+    :root {
+        --typography-h2: 3.2rem;
+        --typography-h3: 1.8rem;
+        --typography-body-base: 1.6rem;
+    }
+}
+
+*,
+*::after,
+*::before {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    border: 0;
+    outline-color: #ccc;
+    color: var(--text-color);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: var(--body-font);
+    font-display: swap;
+    font-size: 62.5%;
+}
+
+html {
+    scroll-behavior: smooth;
+    direction: ltr;
+}
+h2 {
+    font-size: var(--typography-h2);
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+}
+h3 {
+    font-size: var(--typography-h3);
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+}
+h4 {
+    font-size: var(--typography-h4);
+    font-weight: 500;
+    line-height: 2rem;
+}
+p {
+    font-size: var(--typography-body-base);
+    font-weight: 400;
+}
+span{
+    font-size: inherit;
+}
+li {
+    font-size: var(--typography-body-base);
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+mark {
+    font-size: inherit;
+    background-color: yellow;
+    color: initial;
+}
+button {
+    max-width: 90%;
+    height: 6.4rem;
+    padding: .16rem 3.2rem;
+    color: #FFFFFF;
+    border-radius: 0.8rem;
+    font-size: var(--typography-body-base);
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    background: var(--brand-color);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color .4s ease;
+    transition: box-shadow .4s ease;
+
+}
+
+.banner-adv {
+    display: grid;
+    background-color: red;
+    height: 7.4rem;
+    justify-items: center;
+    align-items: center;
+}
+.banner-adv h2{
+    color: #fff;
+    text-align: center;
+}
+section {
+    padding-top: 7.2rem;
+    padding-bottom: 7.2rem;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+

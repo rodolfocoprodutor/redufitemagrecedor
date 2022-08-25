@@ -1,0 +1,206 @@
+/* Variables css*/
+:root{
+    /* Colors */
+    /* Color mode HSL(hue, saturation, lightness)*/
+    /*
+        blue    :   hsl(224, 69%, 14%)
+        red     :   hsl(0, 100%, 43%)
+        gray    :   hsl(0, 0%, 98%)
+        green   :   hsl(100, 83%, 41%)
+        yellow  :   HSL(52, 100%, 50%)
+    */
+
+    --hue: 186;
+    --sat: 62%;
+    --lig: 55%;
+
+    --brand-color: hsl(186, 79%, 38%) ;
+    --brand-color: hsl(var(--hue), var(--sat), var(--lig)) ;
+    --brand-color2: hsl(var(--hue), var(--sat), 38%);
+    --title-color: hsl(212, 94%, 7%);
+    --text-color: hsl(212, 21%, 33%);
+    --bg-gradient: linear-gradient(105.88deg, #FF6651 0%, #F8377B 100%);
+    --container-color: #fff;
+    --attention-yellow: hsl(45, 100%, 48%);
+    --attention-red: hsl(358, 85%, 52%);
+    --attention-green: hsl(100, 83%, 41%);
+    --gray: hsl(0, 0%, 96%);
+
+    /* Font and typography */
+    /* .5rem = 8px / 1rem = 16px */
+    --body-font: 'Poppins', sans-serif;
+    --typography-display: 8rem;
+    --typography-h1: 6.4rem;
+    --typography-h2: 4.8rem;
+    --typography-h3: 2.4rem;
+    --typography-h4: 2rem;
+    --typography-body-base: 1.8rem;
+    --typography-body-sml: 1.6rem;
+    --typography-label: 1.3;
+    --typography-instruction: 1.2;
+}
+
+/* Responsive typography */
+@media only screen and (orientation: portrait)  {
+    :root {
+        --typography-display: 4rem;
+        --typography-h1: 4.8rem;
+        --typography-h2: 3.6rem;
+        --typography-h3: 2.2rem;
+        --typography-h4: 1.9rem;
+        --typography-body-base: 1.6rem;
+        --typography-body-sml: 1.4rem;
+        --typography-label: 1.2;
+        --typography-instruction: 1.0;
+    }
+}
+
+*,
+*::after,
+*::before{
+    list-style:none;
+    text-decoration:none;
+    margin:0;
+    padding:0;
+    text-align:left;
+    border:0;
+    outline-color:#ccc;
+    color: var(--text-color);
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    font-family: var(--body-font);
+    font-display: swap;
+    font-size: 62.5%;
+}
+html{
+    scroll-behavior: smooth;
+    direction: ltr;
+}
+
+h2{
+    font-size: var(--typography-h2);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: var(--title-color);
+}
+h3{
+    font-size: var(--typography-h3);
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+    color: var(--title-color);
+}
+
+p{ 
+    font-size: var(--typography-body-base);
+    font-weight: 400;
+    line-height: 1.6;
+    margin-top: .8rem;
+}
+
+a, span, b{
+    font-size: inherit;
+    color: inherit;
+}
+
+img{
+    display:block;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    width: 100%;
+    height: 6.4rem;
+    padding: .16rem 3.2rem;
+    color: #FFFFFF;
+    border-radius: 0.8rem;
+    font-size: var(--typography-body-base);
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    background: var(--brand-color);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color .4s ease;
+    transition: box-shadow .4s ease;
+    box-shadow: 0px 1.25rem 40px -11px var(--brand-color);
+}
+button:hover {
+    background-color: var(--attention-green);
+    box-shadow: 0px 1.25rem 40px -11px var(--brand-color);
+    color: #ffffff;
+}
+main{
+    width: min(100% - 10%, 120rem);
+    margin-inline: auto;
+}
+main > section{
+    width: min(100% - 10%, 62rem);
+    margin-inline: auto;
+}
+main aside {
+    margin-inline: auto;
+    margin-top: 3.2rem;
+    margin-bottom: 6.4rem;
+}
+main aside img{
+    position: sticky;
+    top: 6.4rem;
+}
+section{
+    padding-top: 7.2rem;
+    padding-bottom: 7.2rem;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.4rem;
+
+    margin-inline: auto;
+}
+
+.grid{
+    display: grid;
+    gap: 2.4rem;
+
+    margin-inline: auto;
+}
+
+.container{
+    width: min(100% - 10%, 1216rem);
+}
+
+header{
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    border-bottom: 1.2rem solid var(--brand-color2);
+    background-color: var(--brand-color);
+}
+header img{
+    margin: auto;
+}
+
+footer{
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    border-bottom: 1.2rem solid var(--brand-color2);
+    background-color: var(--brand-color);
+}
+footer p{
+    color: var(--gray);
+    text-align: center;
+    font-size: var(--typography-body-sml);
+    max-width: 90%;
+    margin: auto;
+}
+footer img{
+    margin: auto;
+    margin-bottom: 2.4rem;
+}
